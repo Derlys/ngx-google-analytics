@@ -27,7 +27,7 @@ npm install ngx-google-analytics
 
 ### Simple Setup
 
-On your Angular Project, you shall include the `NgxGoogleAnalyticsModule` on you highest level application module. ie `AddModule`. The easest install mode call the `forRoot()` method and pass the GA tracking code.
+On your Angular Project, you shall include the `NgxGoogleAnalyticsModule` on you highest level application module. ie `AppModule`. The easiest install mode call the `forRoot()` method and pass the GA tracking code.
 
 ```ts
 import { NgxGoogleAnalyticsModule } from 'ngx-google-analytics';
